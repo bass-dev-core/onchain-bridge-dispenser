@@ -1,0 +1,35 @@
+name: FOSSA Analysis
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - prod
+      - '*'
+  pull_request:
+    branches:
+      - prod
+      - '*'
+
+jobs:
+  fossa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install FOSSA CLI
+        run: |
+          curl -H "Cache-Control: no-cache" https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh -o install.sh
+          chmod +x install.sh
+          ./install.sh
+
+      - name: Run FOSSA Analysis
+        env:
+          FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}
+        run: fossa analyze

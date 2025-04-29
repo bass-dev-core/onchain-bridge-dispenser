@@ -1,0 +1,16 @@
+{
+  "name": "ts-zeroknowledge-dispenser",
+  "private": true,
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "globals": "^14.0.0",
+    "prettier": "^3.5.3"
+  }
+}

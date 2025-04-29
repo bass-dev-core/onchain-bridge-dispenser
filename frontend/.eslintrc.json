@@ -1,0 +1,16 @@
+{
+  "extends": ["next", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn"
+  },
+  "ignorePatterns": ["node_modules/", "dist/", "build/"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  }
+}
