@@ -28,7 +28,6 @@ jobs:
           curl -H "Cache-Control: no-cache" https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh -o install.sh
           chmod +x install.sh
           ./install.sh
-
       - name: Run FOSSA Analysis
         env:
           FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}

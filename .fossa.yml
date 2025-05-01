@@ -1,17 +1,30 @@
 version: 3
 
 project:
-  id: onchain-bridge-dispenser
-  name: Private Dispenser
-  policy: policy-1
-  url: https://github.com/bass-dev-core/onchain-bridge-dispenser
+  id: git+github.com/whonion/onchain-bridge-dispenser
+  name: onchain-bridge-dispenser
+  url: https://github.com/whonion/onchain-bridge-dispenser
 
-analyze:
-  modules:
-    - name: frontend
-      type: npm
-      target: frontend
-      path: frontend
+paths:
+  exclude:
+    - .git
+    - node_modules
+    - dist
+    - build
 
-  notices:
-    - file: NOTICE.md
+license:
+  policy: notice
+  files:
+    - LICENSE
+    - LICENSE.MPL-2.0
+    - NOTICE.md
+
+  dependencies:
+    '@vercel/og':
+      license: MPL-2.0
+      files:
+        - LICENSE.MPL-2.0
+    'satori':
+      license: MPL-2.0
+      files:
+        - LICENSE.MPL-2.0

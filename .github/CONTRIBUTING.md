@@ -2,16 +2,16 @@
 
 ## Request for changes/ Pull Requests
 
-You first need to create a fork of the [github-issue-template](https://github.com/whonion/all-project-template/) repository to commit your changes to it. Methods to fork a repository can be found in the [GitHub Documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+You first need to create a fork of the [github-issue-template](https://github.com/bass-dev-core/onchain-bridge-dispenser/) repository to commit your changes to it. Methods to fork a repository can be found in the [GitHub Documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 Then add your fork as a local project:
 
 ```sh
 # Using HTTPS
-git clone https://github.com/whonion/all-project-template.git
+git clone https://github.com/bass-dev-core/onchain-bridge-dispenser.git
 
 # Using SSH
-git clone git@github.com:whonion/all-project-template.git
+git clone git@github.com:bass-dev-core/onchain-bridge-dispenser.git
 ```
 
 > [Which remote URL should be used ?](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
@@ -26,13 +26,13 @@ Add git remote controls :
 
 ```sh
 # Using HTTPS
-git remote add fork https://github.com/YOUR-USERNAME/all-project-template.git
-git remote add upstream https://github.com/whonion/all-project-template.git
+git remote add fork https://github.com/YOUR-USERNAME/onchain-bridge-dispenser.git
+git remote add upstream https://github.com/bass-dev-core/onchain-bridge-dispenser.git
 
 
 # Using SSH
-git remote add fork git@github.com:YOUR-USERNAME/all-project-template.git
-git remote add upstream git@github.com/whonion/all-project-template.git
+git remote add fork git@github.com:YOUR-USERNAME/onchain-bridge-dispenser.git
+git remote add upstream git@github.com/bass-dev-core/onchain-bridge-dispenser.git
 ```
 
 You can now verify that you have your two git remotes:
@@ -71,4 +71,4 @@ git pull
 git switch --create patch/1234-name-issue
 ```
 
-Commit your changes, then push the branch to your fork with `git push -u fork` and open a pull request on [the all-project-template repository](https://github.com/whonion/all-project-template/) following the template provided.
+Commit your changes, then push the branch to your fork with `git push -u fork` and open a pull request on [the onchain-bridge-dispenser repository](https://github.com/bass-dev-core/onchain-bridge-dispenser/) following the template provided.

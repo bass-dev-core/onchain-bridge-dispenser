@@ -120,8 +120,13 @@ forge install foundry-rs/forge-std --no-commit
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/private-dispenser.git
-cd private-dispenser
+# Using HTTPS
+git clone https://github.com/bass-dev-core/onchain-bridge-dispenser.git
+cd onchain-bridge-dispenser
+
+# Or using SSH
+git clone git@github.com:bass-dev-core/onchain-bridge-dispenser.git
+cd onchain-bridge-dispenser
 ```
 
 2. Install dependencies:
@@ -201,7 +206,7 @@ The frontend is built with Next.js and provides a user-friendly interface for:
 
 ## 🔒 Security
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser?ref=badge_shield&issueType=security)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser?ref=badge_shield&issueType=security)
 
 For detailed information about our security practices, vulnerability reporting, and security-related concerns, please refer to our [SECURITY.md](SECURITY.md).
 
@@ -232,12 +237,12 @@ For detailed information about our security practices, vulnerability reporting, 
 
 ## 📄 License
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser?ref=badge_shield&issueType=license)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser?ref=badge_shield&issueType=license)
 
 This project is licensed under the [MIT License](LICENSE). Some components are licensed under the [Mozilla Public License 2.0](http://mozilla.org/MPL/2.0/). See [NOTICE.md](NOTICE.md) for details about third-party software notices and licenses.
 
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser?ref=badge_large&issueType=license">
-  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwhonion%2Fonchain-bridge-dispenser.svg?type=large&issueType=license" alt="FOSSA Status"/>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser?ref=badge_large&issueType=license">
+  <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbass-dev-core%2Fonchain-bridge-dispenser.svg?type=large&issueType=license" alt="FOSSA Status"/>
 </a>
 
 ## 🤝 Contributing
